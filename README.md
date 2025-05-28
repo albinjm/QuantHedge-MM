@@ -8,12 +8,7 @@ $$
 dS_t = \mu(X_t) S_t \, dt + \sigma(X_t) S_t \, dW_t
 $$
 
-where $X_t \in \{1,2,3\}$ denotes the current regime. The hedging strategy is derived from the **Föllmer-Schweizer decomposition**, minimizing the **quadratic residual risk (QRR)** and its asymmetric variant, the **positive residual risk (PRR)**:
-
-$$
-\text{QRR} = \mathbb{E}\left[(V_T^* - G_T^*)^2\right], \quad
-\text{PRR} = \mathbb{E}\left[\left((V_T^* - G_T^*)^+\right)^2\right]
-$$
+where $X_t \in \{1,2,3\}$ denotes the current regime. The hedging strategy is derived from the **Föllmer-Schweizer decomposition**, minimizing the **quadratic residual risk (QRR)** and its asymmetric variant, the **positive residual risk (PRR)**.
 
 ### 🔧 Core Components:
 
